@@ -1,0 +1,119 @@
+@font-face{
+    font-family: Redlight;
+    src: url(../The\ Redlight\ Free.otf);
+    font-family: Rockville;
+    src: url(../Rockville\ Solid.otf);
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../img/bar.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.top{
+    display: flex; /* 要素をFlexコンテナとして定義する */
+    justify-content: center;/* flexアイテムの上下中央を指定する */
+    align-items: center; /* flexアイテムの左右中央を指定する */
+}
+
+.top_title{
+    font-size: 13vw;
+    font-family: Rockville;
+    height: 50vh;
+}
+
+.top_menu {
+    display: flex; /* 要素をFlexコンテナとして定義する */
+    justify-content: center;/* flexアイテムの上下中央を指定する */
+    align-items: center; /* flexアイテムの左右中央を指定する */
+    height: 5vh;
+}
+
+.top_menu button {
+    font-family: Rockville;
+    font-size: 1vw;
+}
+
+.about {
+    background-color: black;
+    background-size: cover;
+    opacity: 0.9;
+    margin-top: 25dvh;
+    padding-bottom: 30px;;
+}
+
+.introduction {
+    justify-content: center;/* flexアイテムの上下中央を指定する */
+    align-items: center; /* flexアイテムの左右中央を指定する */
+    text-align: center;
+}
+
+@font-face {
+    font-family: japan;
+    src: url(../かんじゅくゴシック.otf);
+}
+
+.introduction p {
+    line-height:2.5;
+    font-family: japan;
+}
+
+#int {
+    font-size: 1.2vw;
+}
+
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    background-image: url('../img/search.png');
+    background-size: cover;
+    width: 70vw;
+    height: 55vh;
+    opacity: 0.95;
+    text-align: center;
+    font-family: japan;
+    font-size: 1vw;
+    border-radius: 10px;
+}
+
+.selecter {
+    display: flex;
+    justify-content: space-around;
+}
+
+#word_form {
+    width: 30vw;
+    border-radius: 10px;
+}
+
+#select_form {
+    width: 15vw;
+    border-radius: 10px;
+}
+
+.card {
+    background-image: url('../img/search.png');
+    background-size: cover;
+    font-family: japan;
+    font-size: 1vw;
+    border-radius: 10px;
+    color: black;
+}
+
+.box {
+    border: solid 2px #fff;
+}
+
+.notfound_body {
+    width: 70vw;
+    height: 80vh;
+}
